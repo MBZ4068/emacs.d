@@ -1,0 +1,22 @@
+# 包与编译产物（elpa/ 12M + eln-cache/ 8M，绝不入库）
+/elpa/
+/eln-cache/
+*.elc
+
+# 运行态缓存：换机器没意义，还容易冲突
+/auto-save-list/
+/persist/
+/url/
+/eshell/
+/transient/
+/projects.eld
+/.org-id-locations
+/recentf
+/bookmarks
+/history
+
+# 编辑器杂物
+*~
+\#*\#
+.#*
+*.bak-*
